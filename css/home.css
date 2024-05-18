@@ -128,13 +128,22 @@
     font-size: 45px;
 }
 
+/* Media Query for Mobile Devices */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    #about-section .about-image-container {
+        width: 350px;
+        height: 350px;
+        margin: auto;
+    }
+}
 /* <!-- ==================END ABOUT SECTION========================= --> */
 
 /* <!-- ==================START WORKING SECTION====================== --> */
-#working-section .vector-contanier {
-    /* width: 433px;
-    height: 398px; */
-}
+
+
+/* <!-- ==================END WORKING SECTION====================== --> */
+
+/* <!-- ==================START WORKING SECTION====================== --> */
 
 
 /* <!-- ==================END WORKING SECTION====================== --> */
