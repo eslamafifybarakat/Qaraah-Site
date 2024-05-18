@@ -68,3 +68,8 @@ img {
 #hero-section .font-number {
     font-family: "Urbanist", sans-serif;
 }
+
+.section-header{
+    letter-spacing: -1px;
+    font-size: 45px;
+}

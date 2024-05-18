@@ -1,11 +1,11 @@
 /* <!-- ==================START NAVBAR============================ --> */
 #navbar {
-    /* z-index: 1000000; */
+    z-index: 1000;
     height: 120px;
     font-family: Cairo;
 }
 
-#navbar .nav-link{
+#navbar .nav-link {
     text-align: left;
 }
 
@@ -130,7 +130,11 @@
 
 /* <!-- ==================END ABOUT SECTION========================= --> */
 
-/* <!-- ==================START TEAM SECTION====================== --> */
+/* <!-- ==================START WORKING SECTION====================== --> */
+#working-section .vector-contanier {
+    /* width: 433px;
+    height: 398px; */
+}
 
 
-/* <!-- ==================END TEAM SECTION====================== --> */
+/* <!-- ==================END WORKING SECTION====================== --> */
