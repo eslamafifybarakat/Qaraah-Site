@@ -7,7 +7,7 @@ body {
     color: var(--text-dark-color);
     overflow-x: hidden;
     scroll-snap-type: y mandatory ;
-    font-family: Cairo;
+    font-family: Almarai;
 }
 
 * {
@@ -64,10 +64,6 @@ img {
     animation-range: entry 10% contain 40%;
 }
 
-.section-container{
-    max-width: 1180px;
-    margin: auto;
-}
 
 #hero-section .font-number {
     font-family: "Urbanist", sans-serif;
