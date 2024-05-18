@@ -117,15 +117,9 @@
     bottom: 320px;
     right: 350px;
     overflow: hidden;
-    ;
     border-radius: 15px;
     width: 235px;
     height: 122px;
-}
-
-#about-section .about-header {
-    letter-spacing: -1px;
-    font-size: 45px;
 }
 
 /* Media Query for Mobile Devices */
@@ -135,15 +129,26 @@
         height: 350px;
         margin: auto;
     }
+
+    #about-section .section-header {
+        font-size: 3rem;
+    }
 }
+
 /* <!-- ==================END ABOUT SECTION========================= --> */
 
 /* <!-- ==================START WORKING SECTION====================== --> */
-
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    #working-section .section-header {
+        font-size: 2.5rem;
+    }
+}
 
 /* <!-- ==================END WORKING SECTION====================== --> */
 
-/* <!-- ==================START WORKING SECTION====================== --> */
+/* <!-- ==================START CHOOSING SECTION====================== --> */
+#choosing-section .slider-box .slider-item {
+    height: 196px;
+}
 
-
-/* <!-- ==================END WORKING SECTION====================== --> */
+/* <!-- ==================END CHOOSING SECTION====================== --> */
