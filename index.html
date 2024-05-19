@@ -26,10 +26,9 @@
         type="image/x-icon">
     <!-- ===== canonical ===== -->
     <link rel="canonical" href="https://Quraah.net">
-    <!-- ===== swiper link ===== -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@latest/swiper-bundle.min.css">
-
+    <!-- ===== owl carosel link ===== -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
     <!-- ===== Main Style sheet ===== -->
     <link rel="stylesheet" href="./css/global-rules.css">
     <link rel="stylesheet" href="./css/buttons.css">
@@ -45,7 +44,8 @@
         <!-- ==================START HEADER==================== -->
 
         <!-- ==================START NAVBAR==================== -->
-        <nav id="navbar" class="navbar navbar-expand-lg position-sticky bg-white-color shadow top-0 w-100 overflow-hidden">
+        <nav id="navbar"
+            class="navbar navbar-expand-lg position-sticky bg-white-color shadow top-0 w-100 overflow-hidden">
             <div class="container">
                 <a href="#" title="logo">
                     <img src="./Quraah Assets/Hero Section/WhatsApp Image 2024-04-21 at 14.57 2.webp" alt="logo">
@@ -333,7 +333,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="about-image-item">
-                            <div class="about-image-container">
+                            <div class="about-image-container mt-5">
                                 <img srcset="./Quraah Assets/حول منتج قراح/Group 123.webp 320w, ./Quraah Assets/حول منتج قراح/Group 123.webp 480w, ./Quraah Assets/حول منتج قراح/Group 123.webp 700w"
                                     sizes="(max-width: 320px) 280px, (max-width: 480px) 440px, 800px"
                                     src="./Quraah Assets/حول منتج قراح/Group 123.webp"
@@ -508,14 +508,14 @@
             <div class="container py-5">
                 <div class="row g-3 g-md-5">
                     <div class="col-md-4">
-                        <div class="" height="400px">
+                        <div>
                             <div class="vector-contanier bg-light-blue rounded-4">
                                 <img src="./Quraah Assets/كيف تعمل تقنية قراح ؟/character.webp" alt="how quraah work">
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-8 d-flex align-items-center">
-                        <div class="d-flex flex-column g-3 gap-md-5 justify-content-center ">
+                    <div class="col-md-8 d-flex">
+                        <div class="d-flex flex-column g-3 gap-md-4 justify-content-center ">
                             <div class="col-md-8">
                                 <h2 class="section-header fw-bold">
                                     كيف تعمل تقنية قراح ؟
@@ -622,8 +622,8 @@
         <!-- ==================START CLIENTS SECTION================ -->
         <section id="clients-section">
             <div class="container pt-5">
-                <div class="row">
-                    <div class="col-md-5">
+                <div class="row g-4 g-md-0">
+                    <div class="col-md-5 d-flex align-items-center">
                         <div>
                             <h2 class="section-header fw-bold">
                                 ماذا يقول عنا عملاؤنا ؟
@@ -648,26 +648,42 @@
                             </button>
                         </div>
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-md-1">
                         <div>
-                            <div class="swiper">
-                                <!-- Additional required wrapper -->
-                                <div class="swiper-wrapper">
-                                    <!-- Slides -->
-                                    <div class="swiper-slide">Slide 1</div>
-                                    <div class="swiper-slide">Slide 2</div>
-                                    <div class="swiper-slide">Slide 3</div>
-                                    ...
+                            <!-- <div class="arrow-image-container">
+                                <img src="./Quraah Assets/ماذا يقول عنا عملاؤنا ؟/Mask group.png" alt="arrow image">
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div>
+                            <div class="owl-carousel owl-theme d-flex flex-column justify-content-center rounded-5 text-end">
+                                <div class="item fs-5 p-4">
+                                    <p>
+                                        التقنية رائعة جدا،فقد وفرت عليا كثيراً من وقتي ومجهودي في السوبرماركت أثناء تجولي بالسيارة، أشكر قراح علي حٌسن تعاملهم وجهودهم المبذولة وأنتظر منهم مزيد من التطور والإبداع
+                                    </p>
+                                    <div class="d-flex justify-content-end gap-3">
+                                        <p class="text-dark-color fs-4 fw-bold">
+                                            نغم محمد
+                                        </p>
+                                        <div class="client-image-container">
+                                            <img src="./Quraah Assets/ماذا يقول عنا عملاؤنا ؟/client.webp" alt="client">
+                                        </div>
+                                    </div>
                                 </div>
-                                <!-- If we need pagination -->
-                                <div class="swiper-pagination"></div>
-
-                                <!-- If we need navigation buttons -->
-                                <div class="swiper-button-prev"></div>
-                                <div class="swiper-button-next"></div>
-
-                                <!-- If we need scrollbar -->
-                                <div class="swiper-scrollbar"></div>
+                                <div class="item fs-5 p-4">
+                                    <p>
+                                        التقنية رائعة جدا،فقد وفرت عليا كثيراً من وقتي ومجهودي في السوبرماركت أثناء تجولي بالسيارة، أشكر قراح علي حٌسن تعاملهم وجهودهم المبذولة وأنتظر منهم مزيد من التطور والإبداع
+                                    </p>
+                                    <div class="d-flex justify-content-end gap-3">
+                                        <p class="text-dark-color fs-4 fw-bold">
+                                            محمد فهد 
+                                        </p>
+                                        <div class="client-image-container">
+                                            <img src="./Quraah Assets/ماذا يقول عنا عملاؤنا ؟/client2.webp" alt="client">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -677,7 +693,7 @@
         <!-- ==================END CLIENTS SECTION================ -->
 
         <!-- ==================START QUESTIONS SECTION================ -->
-        <section id="questions">
+        <section id="questions" class="pt-5">
             <div class="container py-5">
                 <div class="row">
                     <div class="col-md-6">
@@ -708,124 +724,148 @@
                         <div>
                             <div class="accordion d-flex flex-column gap-4" id="accordionExample">
                                 <div class="accordion-item">
-                                  <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        كيف تعمل هذه التقنية علي تبريد المياة ؟
-                                    </button>
-                                  </h2>
-                                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <p class="fs-5">
-                                            يصبح الماء بارداً جاهز للشرب عن طريق التبريد الناتج عن المكيف في المركبة
-                                        </p>
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button fs-5" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            كيف تعمل هذه التقنية علي تبريد المياة ؟
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="fs-5">
+                                                يصبح الماء بارداً جاهز للشرب عن طريق التبريد الناتج عن المكيف في المركبة
+                                            </p>
+                                        </div>
                                     </div>
-                                  </div>
                                 </div>
                                 <div class="accordion-item">
-                                  <h2 class="accordion-header" id="headingTwo">
-                                    <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        كيف تعمل هذه التقنية علي تبريد المياة ؟
-                                    </button>
-                                  </h2>
-                                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <p class="fs-5">
-                                            يصبح الماء بارداً جاهز للشرب عن طريق التبريد الناتج عن المكيف في المركبة
-                                        </p>
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed fs-5" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            كيف تعمل هذه التقنية علي تبريد المياة ؟
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="fs-5">
+                                                يصبح الماء بارداً جاهز للشرب عن طريق التبريد الناتج عن المكيف في المركبة
+                                            </p>
+                                        </div>
                                     </div>
-                                  </div>
-                                </div>
-                                <div class="accordion-item">
-                                  <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        كيف تعمل هذه التقنية علي تبريد المياة ؟
-                                    </button>
-                                  </h2>
-                                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <p class="fs-5">
-                                            يصبح الماء بارداً جاهز للشرب عن طريق التبريد الناتج عن المكيف في المركبة
-                                        </p>
-                                    </div>
-                                  </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingThree">
-                                      <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        كيف تعمل هذه التقنية علي تبريد المياة ؟
-                                      </button>
+                                        <button class="accordion-button collapsed fs-5" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            كيف تعمل هذه التقنية علي تبريد المياة ؟
+                                        </button>
                                     </h2>
-                                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                      <div class="accordion-body">
-                                        <p class="fs-5">
-                                            يصبح الماء بارداً جاهز للشرب عن طريق التبريد الناتج عن المكيف في المركبة
-                                        </p>
-                                      </div>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="fs-5">
+                                                يصبح الماء بارداً جاهز للشرب عن طريق التبريد الناتج عن المكيف في المركبة
+                                            </p>
+                                        </div>
                                     </div>
-                                  </div>
-                              </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed fs-5" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                            aria-expanded="false" aria-controls="collapseFour">
+                                            كيف تعمل هذه التقنية علي تبريد المياة ؟
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse"
+                                        aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="fs-5">
+                                                يصبح الماء بارداً جاهز للشرب عن طريق التبريد الناتج عن المكيف في المركبة
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 py-5">
                         <div>
                             <div class="accordion d-flex flex-column gap-4" id="accordionExample">
                                 <div class="accordion-item">
-                                  <h2 class="accordion-header" id="headingFive">
-                                    <button class="accordion-button fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-                                        كيف تعمل هذه التقنية علي تبريد المياة ؟
-                                    </button>
-                                  </h2>
-                                  <div id="collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <p class="fs-5">
-                                            يصبح الماء بارداً جاهز للشرب عن طريق التبريد الناتج عن المكيف في المركبة
-                                        </p>
+                                    <h2 class="accordion-header" id="headingFive">
+                                        <button class="accordion-button fs-5" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseFive" aria-expanded="true"
+                                            aria-controls="collapseFive">
+                                            كيف تعمل هذه التقنية علي تبريد المياة ؟
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFive" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="fs-5">
+                                                يصبح الماء بارداً جاهز للشرب عن طريق التبريد الناتج عن المكيف في المركبة
+                                            </p>
+                                        </div>
                                     </div>
-                                  </div>
                                 </div>
                                 <div class="accordion-item">
-                                  <h2 class="accordion-header" id="headingSix">
-                                    <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                        كيف تعمل هذه التقنية علي تبريد المياة ؟
-                                    </button>
-                                  </h2>
-                                  <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <p class="fs-5">
-                                            يصبح الماء بارداً جاهز للشرب عن طريق التبريد الناتج عن المكيف في المركبة
-                                        </p>
+                                    <h2 class="accordion-header" id="headingSix">
+                                        <button class="accordion-button collapsed fs-5" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseSix"
+                                            aria-expanded="false" aria-controls="collapseSix">
+                                            كيف تعمل هذه التقنية علي تبريد المياة ؟
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSix" class="accordion-collapse collapse"
+                                        aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="fs-5">
+                                                يصبح الماء بارداً جاهز للشرب عن طريق التبريد الناتج عن المكيف في المركبة
+                                            </p>
+                                        </div>
                                     </div>
-                                  </div>
                                 </div>
                                 <div class="accordion-item">
-                                  <h2 class="accordion-header" id="headingSeven">
-                                    <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                        كيف تعمل هذه التقنية علي تبريد المياة ؟
-                                    </button>
-                                  </h2>
-                                  <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <p class="fs-5">
-                                            يصبح الماء بارداً جاهز للشرب عن طريق التبريد الناتج عن المكيف في المركبة
-                                        </p>
+                                    <h2 class="accordion-header" id="headingSeven">
+                                        <button class="accordion-button collapsed fs-5" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseSeven"
+                                            aria-expanded="false" aria-controls="collapseSeven">
+                                            كيف تعمل هذه التقنية علي تبريد المياة ؟
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSeven" class="accordion-collapse collapse"
+                                        aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="fs-5">
+                                                يصبح الماء بارداً جاهز للشرب عن طريق التبريد الناتج عن المكيف في المركبة
+                                            </p>
+                                        </div>
                                     </div>
-                                  </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingEight">
-                                      <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                        كيف تعمل هذه التقنية علي تبريد المياة ؟
-                                      </button>
+                                        <button class="accordion-button collapsed fs-5" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseEight"
+                                            aria-expanded="false" aria-controls="collapseEight">
+                                            كيف تعمل هذه التقنية علي تبريد المياة ؟
+                                        </button>
                                     </h2>
-                                    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
-                                      <div class="accordion-body">
-                                        <p class="fs-5">
-                                            يصبح الماء بارداً جاهز للشرب عن طريق التبريد الناتج عن المكيف في المركبة
-                                        </p>
-                                      </div>
+                                    <div id="collapseEight" class="accordion-collapse collapse"
+                                        aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="fs-5">
+                                                يصبح الماء بارداً جاهز للشرب عن طريق التبريد الناتج عن المكيف في المركبة
+                                            </p>
+                                        </div>
                                     </div>
-                                  </div>
-                              </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -974,7 +1014,7 @@
                                 <p>
                                     الهاتف
                                 </p>
-                                <p  class="contact-no text-end">
+                                <p class="contact-no text-end">
                                     <a href="#">
                                         +966 1234567890
                                     </a>
@@ -1030,9 +1070,10 @@
         <!-- ==================END FOOTER============== -->
 
     </main>
-
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@latest/swiper-bundle.min.js"></script>
+    <script src="./js/slider.js"></script>
 
 </body>
 
