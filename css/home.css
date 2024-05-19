@@ -166,6 +166,30 @@
 
 /* <!-- ==================END CLIENTS SECTION====================== --> */
 
+/* <!-- ==================START QUESTION SECTION====================== --> */
+#questions .accordion{
+    border: none;
+    
+}
+
+#questions .accordion-item{
+    box-shadow: 5px 5px 20px 0px #0000000D;
+    /* border-radius: 15px;     */
+    border: 1px solid #DDDDDD;
+}
+
+#questions .accordion-button{
+   text-align: right;
+}
+
+#questions .accordion-button::after{
+    margin-left: 0;
+    margin-right: auto;
+    font-weight: bolder;
+}
+/* <!-- ==================START QUESTION SECTION====================== --> */
+
+
 /* <!-- ==================START CONTACT SECTION====================== --> */
 
 #contact-section .section-header {
@@ -184,10 +208,6 @@
     font-size: 33px;
     font-weight: 700;
     color: var(--blue-color);
-}
-
-#contact-section .contact-no {
-    direction: ltr;
 }
 
 #contact-section input {
