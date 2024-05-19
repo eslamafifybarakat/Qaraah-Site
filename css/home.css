@@ -167,25 +167,40 @@
 /* <!-- ==================END CLIENTS SECTION====================== --> */
 
 /* <!-- ==================START QUESTION SECTION====================== --> */
-#questions .accordion{
+#questions .accordion {
     border: none;
-    
+
 }
 
-#questions .accordion-item{
+#questions .accordion-item {
     box-shadow: 5px 5px 20px 0px #0000000D;
     /* border-radius: 15px;     */
     border: 1px solid #DDDDDD;
 }
 
-#questions .accordion-button{
-   text-align: right;
+#questions .accordion-button {
+    text-align: right;
 }
 
-#questions .accordion-button::after{
+#questions .accordion-button::after {
     margin-left: 0;
     margin-right: auto;
     font-weight: bolder;
+}
+
+.accordion-item {
+    background-color: #81D0FF;
+    color: var(--text-white-color);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #81D0FF;
+    color: var(--text-white-color);
+}
+
+.accordion-button:not(.collapsed)::after {
+    color: var(--text-white-color);
+
 }
 /* <!-- ==================START QUESTION SECTION====================== --> */
 
