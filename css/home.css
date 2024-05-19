@@ -132,6 +132,27 @@
     #about-section .section-header {
         font-size: 3rem;
     }
+
+    #about-section .about-right-box {
+        left: -10px;
+    }
+
+    #about-section .about-left-box {
+        bottom: 254px;
+        right: 101px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 991px) {
+    #about-section .about-right-box {
+        left: 14px;
+        bottom: 410px;
+    }
+
+    #about-section .about-left-box {
+        bottom: 281px;
+        right: 125px;
+    }
 }
 
 /* <!-- ==================END ABOUT SECTION========================= --> */
