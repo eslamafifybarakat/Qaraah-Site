@@ -2,8 +2,16 @@
   color: var(--text-main-color) !important;
 }
 
+.text-dark-blue {
+  color: var(--text-dark-blue) !important;
+}
+
 .bg-main-color {
   background: var(--bg-main-color) !important;
+}
+
+.blue-color{
+  color: var(--blue-color);
 }
 
 .bg-light-blue {
@@ -44,4 +52,8 @@
 
 .bg-grey-100 {
   background-color: var(--grey-100);
+}
+
+.light-grey-color{
+  color: var(--light-grey-color);
 }

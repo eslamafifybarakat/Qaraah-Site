@@ -138,7 +138,7 @@
 /* <!-- ==================END ABOUT SECTION========================= --> */
 
 /* <!-- ==================START WORKING SECTION====================== --> */
-#working-section .balls-number{
+#working-section .balls-number {
     width: 50px;
     height: 50px;
 }
@@ -162,9 +162,36 @@
 .swiper {
     width: 600px;
     height: 300px;
-  }
+}
+
 /* <!-- ==================END CLIENTS SECTION====================== --> */
 
-/* <!-- ==================START FOOTER SECTION====================== --> */
+/* <!-- ==================START CONTACT SECTION====================== --> */
 
-/* <!-- ==================END FOOTER SECTION====================== --> */
+#contact-section .section-header {
+    font-size: 50px;
+    font-family: Droid Arabic Kufi;
+}
+
+#contact-section .contact-dark-blue-text {
+    font-size: 20px;
+    font-family: Droid Arabic Kufi;
+    line-height: 30px;
+}
+
+#contact-section .contact-section-header {
+    font-family: Droid Arabic Kufi;
+    font-size: 33px;
+    font-weight: 700;
+    color: var(--blue-color);
+}
+
+#contact-section .contact-no {
+    direction: ltr;
+}
+
+#contact-section input {
+    font-family: Droid Arabic Kufi;
+}
+
+/* <!-- ==================END CONTACT SECTION====================== --> */

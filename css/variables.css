@@ -1,9 +1,9 @@
 :root {
     --text-main-color: #36AAF0;
     --bg-main-color: #36AAF0;
-
+    --text-dark-blue: #1071B8;
+    --blue-color: #199EEE;
     --bg-light-blue: #EDF8FE;
-    
     --text-green-color: #09C131;
     --grey-100: #9E9E9E;
     --text-gray-color: #505050;
@@ -12,5 +12,5 @@
     --bg-dark-color: #111;
     --text-dark-color: #111;
     --main-border-radius-shape: 1.5625rem;
-    --border-color: #8c95a399;
+    --light-grey-color: #8c95a3;
 }
